@@ -1,0 +1,15 @@
+Executable : /Users/macmini/Library/Android/sdk/cmake/3.6.4111459/bin/cmake
+arguments : 
+-H/Users/macmini/app/opencvRepo/opencv/libcxx_helper
+-B/Users/macmini/app/opencvRepo/opencv/.cxx/cmake/release/x86
+-DANDROID_ABI=x86
+-DANDROID_PLATFORM=android-21
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/Users/macmini/app/opencvRepo/opencv/build/intermediates/cmake/release/obj/x86
+-DCMAKE_BUILD_TYPE=Release
+-DANDROID_NDK=/Users/macmini/Library/Android/sdk/ndk/22.1.7171670
+-DCMAKE_TOOLCHAIN_FILE=/Users/macmini/Library/Android/sdk/ndk/22.1.7171670/build/cmake/android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=/Users/macmini/Library/Android/sdk/cmake/3.6.4111459/bin/ninja
+-GAndroid Gradle - Ninja
+-DANDROID_STL=c++_shared
+jvmArgs : 
+
