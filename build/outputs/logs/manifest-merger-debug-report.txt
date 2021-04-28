@@ -1,0 +1,89 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/macmini/app/card_scanner/android/src/main/AndroidManifest.xml:2:1-36:12
+INJECTED from /Users/macmini/app/card_scanner/android/src/main/AndroidManifest.xml:2:1-36:12
+INJECTED from /Users/macmini/app/card_scanner/android/src/main/AndroidManifest.xml:2:1-36:12
+	package
+		ADDED from /Users/macmini/app/card_scanner/android/src/main/AndroidManifest.xml:3:5-36
+		INJECTED from /Users/macmini/app/card_scanner/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/macmini/app/card_scanner/android/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/macmini/app/card_scanner/android/src/main/AndroidManifest.xml:2:11-69
+uses-feature#android.hardware.camera.any
+ADDED from /Users/macmini/app/card_scanner/android/src/main/AndroidManifest.xml:5:5-64
+	android:name
+		ADDED from /Users/macmini/app/card_scanner/android/src/main/AndroidManifest.xml:5:19-61
+uses-permission#android.permission.CAMERA
+ADDED from /Users/macmini/app/card_scanner/android/src/main/AndroidManifest.xml:6:5-65
+	android:name
+		ADDED from /Users/macmini/app/card_scanner/android/src/main/AndroidManifest.xml:6:22-62
+supports-screens
+ADDED from /Users/macmini/app/card_scanner/android/src/main/AndroidManifest.xml:7:5-11:37
+	android:largeScreens
+		ADDED from /Users/macmini/app/card_scanner/android/src/main/AndroidManifest.xml:10:9-36
+	android:smallScreens
+		ADDED from /Users/macmini/app/card_scanner/android/src/main/AndroidManifest.xml:8:9-36
+	android:normalScreens
+		ADDED from /Users/macmini/app/card_scanner/android/src/main/AndroidManifest.xml:9:9-37
+	android:resizeable
+		ADDED from /Users/macmini/app/card_scanner/android/src/main/AndroidManifest.xml:7:23-48
+	android:anyDensity
+		ADDED from /Users/macmini/app/card_scanner/android/src/main/AndroidManifest.xml:11:9-34
+uses-feature#android.hardware.camera
+ADDED from /Users/macmini/app/card_scanner/android/src/main/AndroidManifest.xml:14:5-84
+	android:required
+		ADDED from /Users/macmini/app/card_scanner/android/src/main/AndroidManifest.xml:14:58-82
+	android:name
+		ADDED from /Users/macmini/app/card_scanner/android/src/main/AndroidManifest.xml:14:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from /Users/macmini/app/card_scanner/android/src/main/AndroidManifest.xml:15:5-94
+	android:required
+		ADDED from /Users/macmini/app/card_scanner/android/src/main/AndroidManifest.xml:15:68-92
+	android:name
+		ADDED from /Users/macmini/app/card_scanner/android/src/main/AndroidManifest.xml:15:19-67
+uses-feature#android.hardware.camera.front
+ADDED from /Users/macmini/app/card_scanner/android/src/main/AndroidManifest.xml:16:5-90
+	android:required
+		ADDED from /Users/macmini/app/card_scanner/android/src/main/AndroidManifest.xml:16:64-88
+	android:name
+		ADDED from /Users/macmini/app/card_scanner/android/src/main/AndroidManifest.xml:16:19-63
+uses-feature#android.hardware.camera.front.autofocus
+ADDED from /Users/macmini/app/card_scanner/android/src/main/AndroidManifest.xml:17:5-100
+	android:required
+		ADDED from /Users/macmini/app/card_scanner/android/src/main/AndroidManifest.xml:17:74-98
+	android:name
+		ADDED from /Users/macmini/app/card_scanner/android/src/main/AndroidManifest.xml:17:19-73
+application
+ADDED from /Users/macmini/app/card_scanner/android/src/main/AndroidManifest.xml:19:5-34:19
+meta-data#com.google.mlkit.vision.DEPENDENCIES
+ADDED from /Users/macmini/app/card_scanner/android/src/main/AndroidManifest.xml:20:9-22:35
+	android:value
+		ADDED from /Users/macmini/app/card_scanner/android/src/main/AndroidManifest.xml:22:13-32
+	android:name
+		ADDED from /Users/macmini/app/card_scanner/android/src/main/AndroidManifest.xml:21:13-64
+activity#com.drdr.card_scanner.CardScannerCameraActivity
+ADDED from /Users/macmini/app/card_scanner/android/src/main/AndroidManifest.xml:23:9-27:20
+	android:screenOrientation
+		ADDED from /Users/macmini/app/card_scanner/android/src/main/AndroidManifest.xml:25:13-49
+	android:theme
+		ADDED from /Users/macmini/app/card_scanner/android/src/main/AndroidManifest.xml:26:13-51
+	android:name
+		ADDED from /Users/macmini/app/card_scanner/android/src/main/AndroidManifest.xml:24:13-54
+activity#com.drdr.card_scanner.CardDetectionActivity
+ADDED from /Users/macmini/app/card_scanner/android/src/main/AndroidManifest.xml:28:9-33:20
+	android:screenOrientation
+		ADDED from /Users/macmini/app/card_scanner/android/src/main/AndroidManifest.xml:30:13-50
+	android:configChanges
+		ADDED from /Users/macmini/app/card_scanner/android/src/main/AndroidManifest.xml:31:13-63
+	android:theme
+		ADDED from /Users/macmini/app/card_scanner/android/src/main/AndroidManifest.xml:32:13-51
+	android:name
+		ADDED from /Users/macmini/app/card_scanner/android/src/main/AndroidManifest.xml:29:13-50
+uses-sdk
+INJECTED from /Users/macmini/app/card_scanner/android/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/macmini/app/card_scanner/android/src/main/AndroidManifest.xml
+INJECTED from /Users/macmini/app/card_scanner/android/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/macmini/app/card_scanner/android/src/main/AndroidManifest.xml
+		ADDED from /Users/macmini/app/card_scanner/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/macmini/app/card_scanner/android/src/main/AndroidManifest.xml

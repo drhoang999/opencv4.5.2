@@ -1,0 +1,11 @@
+R_DEF: Internal format may change without notice
+local
+id backButton
+id cameraView
+id color_blob_detection_activity_surface_view
+id left
+id right
+id scannerBar
+id scannerLayout
+layout card_scanner_camera_activity
+layout color_blob_detection_surface_view

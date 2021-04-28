@@ -1,0 +1,85 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.drdr.card_scanner" >
+4
+5    <uses-sdk android:minSdkVersion="21" />
+5-->/Users/macmini/app/card_scanner/android/src/main/AndroidManifest.xml
+6
+7    <uses-feature android:name="android.hardware.camera.any" />
+7-->/Users/macmini/app/card_scanner/android/src/main/AndroidManifest.xml:5:5-64
+7-->/Users/macmini/app/card_scanner/android/src/main/AndroidManifest.xml:5:19-61
+8
+9    <uses-permission android:name="android.permission.CAMERA" />
+9-->/Users/macmini/app/card_scanner/android/src/main/AndroidManifest.xml:6:5-65
+9-->/Users/macmini/app/card_scanner/android/src/main/AndroidManifest.xml:6:22-62
+10
+11    <supports-screens
+11-->/Users/macmini/app/card_scanner/android/src/main/AndroidManifest.xml:7:5-11:37
+12        android:anyDensity="true"
+12-->/Users/macmini/app/card_scanner/android/src/main/AndroidManifest.xml:11:9-34
+13        android:largeScreens="true"
+13-->/Users/macmini/app/card_scanner/android/src/main/AndroidManifest.xml:10:9-36
+14        android:normalScreens="true"
+14-->/Users/macmini/app/card_scanner/android/src/main/AndroidManifest.xml:9:9-37
+15        android:resizeable="true"
+15-->/Users/macmini/app/card_scanner/android/src/main/AndroidManifest.xml:7:23-48
+16        android:smallScreens="true" />
+16-->/Users/macmini/app/card_scanner/android/src/main/AndroidManifest.xml:8:9-36
+17
+18    <uses-feature
+18-->/Users/macmini/app/card_scanner/android/src/main/AndroidManifest.xml:14:5-84
+19        android:name="android.hardware.camera"
+19-->/Users/macmini/app/card_scanner/android/src/main/AndroidManifest.xml:14:19-57
+20        android:required="false" />
+20-->/Users/macmini/app/card_scanner/android/src/main/AndroidManifest.xml:14:58-82
+21    <uses-feature
+21-->/Users/macmini/app/card_scanner/android/src/main/AndroidManifest.xml:15:5-94
+22        android:name="android.hardware.camera.autofocus"
+22-->/Users/macmini/app/card_scanner/android/src/main/AndroidManifest.xml:15:19-67
+23        android:required="false" />
+23-->/Users/macmini/app/card_scanner/android/src/main/AndroidManifest.xml:15:68-92
+24    <uses-feature
+24-->/Users/macmini/app/card_scanner/android/src/main/AndroidManifest.xml:16:5-90
+25        android:name="android.hardware.camera.front"
+25-->/Users/macmini/app/card_scanner/android/src/main/AndroidManifest.xml:16:19-63
+26        android:required="false" />
+26-->/Users/macmini/app/card_scanner/android/src/main/AndroidManifest.xml:16:64-88
+27    <uses-feature
+27-->/Users/macmini/app/card_scanner/android/src/main/AndroidManifest.xml:17:5-100
+28        android:name="android.hardware.camera.front.autofocus"
+28-->/Users/macmini/app/card_scanner/android/src/main/AndroidManifest.xml:17:19-73
+29        android:required="false" />
+29-->/Users/macmini/app/card_scanner/android/src/main/AndroidManifest.xml:17:74-98
+30
+31    <application>
+31-->/Users/macmini/app/card_scanner/android/src/main/AndroidManifest.xml:19:5-34:19
+32        <meta-data
+32-->/Users/macmini/app/card_scanner/android/src/main/AndroidManifest.xml:20:9-22:35
+33            android:name="com.google.mlkit.vision.DEPENDENCIES"
+33-->/Users/macmini/app/card_scanner/android/src/main/AndroidManifest.xml:21:13-64
+34            android:value="ocr" />
+34-->/Users/macmini/app/card_scanner/android/src/main/AndroidManifest.xml:22:13-32
+35
+36        <activity
+36-->/Users/macmini/app/card_scanner/android/src/main/AndroidManifest.xml:23:9-27:20
+37            android:name="com.drdr.card_scanner.CardScannerCameraActivity"
+37-->/Users/macmini/app/card_scanner/android/src/main/AndroidManifest.xml:24:13-54
+38            android:screenOrientation="portrait"
+38-->/Users/macmini/app/card_scanner/android/src/main/AndroidManifest.xml:25:13-49
+39            android:theme="@style/Theme.AppCompat" >
+39-->/Users/macmini/app/card_scanner/android/src/main/AndroidManifest.xml:26:13-51
+40        </activity>
+41        <activity
+41-->/Users/macmini/app/card_scanner/android/src/main/AndroidManifest.xml:28:9-33:20
+42            android:name="com.drdr.card_scanner.CardDetectionActivity"
+42-->/Users/macmini/app/card_scanner/android/src/main/AndroidManifest.xml:29:13-50
+43            android:configChanges="keyboardHidden|orientation"
+43-->/Users/macmini/app/card_scanner/android/src/main/AndroidManifest.xml:31:13-63
+44            android:screenOrientation="landscape"
+44-->/Users/macmini/app/card_scanner/android/src/main/AndroidManifest.xml:30:13-50
+45            android:theme="@style/Theme.AppCompat" >
+45-->/Users/macmini/app/card_scanner/android/src/main/AndroidManifest.xml:32:13-51
+46        </activity>
+47    </application>
+48
+49</manifest>
